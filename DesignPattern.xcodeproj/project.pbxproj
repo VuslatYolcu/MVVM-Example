@@ -11,6 +11,7 @@
 		11071C5529E1916E00ADE93B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11071C5429E1916E00ADE93B /* LoginViewModel.swift */; };
 		11071C5829E1921300ADE93B /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11071C5729E1921300ADE93B /* ObservableObject.swift */; };
 		11071C5A29E1986400ADE93B /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11071C5929E1986400ADE93B /* NetworkService.swift */; };
+		11071C5D29E1A12D00ADE93B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11071C5C29E1A12D00ADE93B /* HomeViewModel.swift */; };
 		1296C1DF2764177600CC9685 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1296C1DE2764177600CC9685 /* AppDelegate.swift */; };
 		1296C1E12764177600CC9685 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1296C1E02764177600CC9685 /* SceneDelegate.swift */; };
 		1296C1E62764177600CC9685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1296C1E42764177600CC9685 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 		11071C5429E1916E00ADE93B /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		11071C5729E1921300ADE93B /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
 		11071C5929E1986400ADE93B /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		11071C5C29E1A12D00ADE93B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		1296C1DB2764177600CC9685 /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1296C1DE2764177600CC9685 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1296C1E02764177600CC9685 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,15 @@
 			path = LoginView;
 			sourceTree = "<group>";
 		};
+		11071C5B29E1A11700ADE93B /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				1296C1F42764196700CC9685 /* HomeViewController.swift */,
+				11071C5C29E1A12D00ADE93B /* HomeViewModel.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
 		1296C1D22764177600CC9685 = {
 			isa = PBXGroup;
 			children = (
@@ -79,7 +90,7 @@
 				1296C1E02764177600CC9685 /* SceneDelegate.swift */,
 				1296C1E42764177600CC9685 /* Main.storyboard */,
 				11071C5629E1917C00ADE93B /* LoginView */,
-				1296C1F42764196700CC9685 /* HomeViewController.swift */,
+				11071C5B29E1A11700ADE93B /* HomeView */,
 				1296C1E72764177800CC9685 /* Assets.xcassets */,
 				1296C1E92764177800CC9685 /* LaunchScreen.storyboard */,
 				1296C1EC2764177800CC9685 /* Info.plist */,
@@ -162,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1296C1F32764188C00CC9685 /* LoginViewController.swift in Sources */,
+				11071C5D29E1A12D00ADE93B /* HomeViewModel.swift in Sources */,
 				1296C1DF2764177600CC9685 /* AppDelegate.swift in Sources */,
 				11071C5A29E1986400ADE93B /* NetworkService.swift in Sources */,
 				11071C5529E1916E00ADE93B /* LoginViewModel.swift in Sources */,

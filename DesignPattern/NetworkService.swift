@@ -10,7 +10,7 @@ import Foundation
 final class NetworkService {
     static let shared = NetworkService()
     
-    var user: User?
+    private var user: User?
     
     private init() { }
     
@@ -24,5 +24,9 @@ final class NetworkService {
                 completion(false)
             }
         }
+    }
+    
+    func getLoggedInUser() -> User? {
+        return user
     }
 }
