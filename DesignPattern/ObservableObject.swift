@@ -9,7 +9,12 @@ import Foundation
 
 final class ObservableObject<T> {
     
-    var value: T?
+    var value: T? {
+        didSet {
+           listener?(value)
+        }
+    }
+    
     private var listener: ((T?) -> Void)?
     
     init(_ value: T?) {
